@@ -17,6 +17,7 @@
             ]
             "performance":6,
             "size_mb":32,722,
+            "training_duration":-1
         },
         {
             "unet_version":"0.1",
@@ -35,6 +36,7 @@
             ]
             "performance":0,
             "size_mb":32,722,
+            "training_duration":-1
         },
         {
             "unet_version":"0.2",
@@ -53,6 +55,7 @@
             ]
             "performance":10,
             "size_mb":401,730,
+            "training_duration":-1
         },
     ]
 }
