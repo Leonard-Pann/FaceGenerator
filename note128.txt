@@ -1,0 +1,26 @@
+{
+    "model_train":[
+        {
+            "unet_version":"0.3",
+            "training_hyperparams":[
+                "beta_scheduler_start":0.0001,
+                "beta_scheduler_end":0.02,
+                "in_channels":3,
+                "base_channels":96,
+                "time_emb_dim":512,
+                "attention_resolutions":[64, 32, 16, 8],
+                "beta_schedule_type":"linear",
+                "batch_size":8,
+                "timestep":1000,
+                "ema_decay":0.9999,
+                "use_EMA":false,
+                "epochs":3000,
+                "test_proportion":0.1,
+                "lr":0.0002
+            ]
+            "performance":-1,
+            "size_mb":872,000,
+            "training_duration":-1
+        },
+    ]
+}
